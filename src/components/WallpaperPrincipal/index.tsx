@@ -1,11 +1,7 @@
 import React from 'react'
 import style from './style.module.scss'
 import { AiOutlineLeftCircle, AiOutlineRightCircle } from 'react-icons/ai'
-
-interface IWallpaper {
-    imagem: string,
-    descricao: string,
-}
+import IWallpaper from '../../types/wallpaper'
 
 export default function WallpaperPrincipal({imagem, descricao} : IWallpaper) {
   return (
