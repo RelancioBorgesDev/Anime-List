@@ -1,0 +1,16 @@
+.header{
+    max-width: 1440px;
+    height: 8vh;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--principal);
+    
+    span{
+        color: var(--branco);
+        font-family: var(--roboto);
+        font-weight: 400;
+        font-size: var(--titulo);
+    }
+}

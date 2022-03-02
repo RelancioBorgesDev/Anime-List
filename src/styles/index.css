@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+:root{
+    --roboto: 'Roboto', sans-serif;
+
+    --titulo: 3rem;
+    --subtitulo: 2.4rem;
+
+
+    --principal: #F06543;
+    --secundaria: #FF8360;
+    --vermelho-button: #D62246;
+    --preto-raisin: #202030;
+    --branco: #FEFDFF;
+
+}
